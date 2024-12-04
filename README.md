@@ -79,6 +79,14 @@ paquo to use that version. Currently, paquo supports every version of QuPath fro
 Note that in this environment `paquo` is already installed in development mode,
 so go ahead and hack.
 
+## Trouble shooting
+In case of issues with a Java Virtual Machine (JVM)
+incompatibilities with Python environment on MacOS,
+try installing java21 macOS aarch64 from https://adoptium.net/
+
+Most likely problems occur due to the python environment manager
+while migrating Mac from intel-based to silicon.
+Python would be set up for x86_64 rather than arm64.
 
 ## Contributing Guidelines
 
